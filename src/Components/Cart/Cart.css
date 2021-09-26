@@ -1,0 +1,15 @@
+.cart-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.underline{
+    width: 20%;
+    height: 2px;
+    background-color: #23B7A7;
+}
+
+.total-price{
+    color: #23B7A7;
+    font-weight: bold;
+}

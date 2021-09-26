@@ -1,0 +1,14 @@
+.cart-course-img{
+    margin-top: 5px;
+    width: 35%;
+}
+
+.cart-course-info p{
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.price-info{
+    color: #23B7A7;
+    font-size: 16px;
+}

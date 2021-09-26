@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-const Header = () => {
+const Header = (props) => {
   return (
     <div>
       <div>
@@ -8,7 +8,7 @@ const Header = () => {
         {/* Navigation Bar */}
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
           <div className="container">
-            <a className="navbar-brand" href="/"> Coursera </a>
+            <a className="navbar-brand" href="/"> AlgoProxy </a>
 
             <div className="collapse navbar-collapse d-flex justify-content-between" id="navbarNavAltMarkup">
               <div className="navbar-nav">
@@ -30,7 +30,7 @@ const Header = () => {
               </div>
               <div className="d-flex nav-buttons">
                 <a className="nav-link" id="cart" href="/">
-                  <i class="fas fa-shopping-cart"></i> Cart(0)
+                  <i class="fas fa-shopping-cart"></i> Cart({props.cart.length})
                 </a>
                 <a className="nav-link" id="sign-in" href="/">
                   Sign In

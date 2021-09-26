@@ -4,7 +4,23 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartArrowDown} from '@fortawesome/free-solid-svg-icons';
 import "./Card.css";
 const Card = (props) => {
-  const { img, mode, difficulty, title, description, rating,price} = props.course;
+  const { img, mode, difficulty, title, description, rating,price,key} = props.course;
+  const setCart = props.setCart;
+  const cart = props.cart;
+
+  const addCourse = () => {
+    let alreadyExist = false;
+    cart.forEach(element => {
+      if(element.key===key){
+        alreadyExist = true;
+      }
+    });
+
+    if(!alreadyExist){
+      const newCart = [...cart,props.course];
+      setCart(newCart);
+    }
+  }
   return (
     <div className="col">
       <div className="card h-100 product">
@@ -38,7 +54,7 @@ const Card = (props) => {
             <h5 className="text-center reg-status">Registration is going on</h5>
             <hr />
             <div className="d-flex justify-content-center py-2">
-              <button className='enroll-btn'> <FontAwesomeIcon icon={faCartArrowDown} /> Enroll Now </button>
+              <button onClick={addCourse} className='enroll-btn'> <FontAwesomeIcon icon={faCartArrowDown} /> Enroll Now </button>
             </div>
         </div>
       </div>
