@@ -14,11 +14,12 @@ const Courses = (props) => {
 
   return (
     <div>
+      {/* Two column: left side will be course Card on right there will be a cart */}
       <div className="my-5 row mx-1">
         <div className="col-md-9">
           <div className="row row-cols-1 row-cols-md-3 g-4">
             {
-              courses.map(course => <Card course={course} cart={props.cart} setCart={props.setCart}></Card>)
+              courses.map(course => <Card key={course.key} course={course} cart={props.cart} setCart={props.setCart}></Card>)
             }
           </div>
         </div>

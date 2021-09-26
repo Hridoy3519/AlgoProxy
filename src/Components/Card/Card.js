@@ -4,10 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartArrowDown} from '@fortawesome/free-solid-svg-icons';
 import "./Card.css";
 const Card = (props) => {
+
+  // Destructuring
   const { img, mode, difficulty, title, description, rating,price,key} = props.course;
   const setCart = props.setCart;
   const cart = props.cart;
 
+  // Add Course on the cart, if this course is not already enrolled.
   const addCourse = () => {
     let alreadyExist = false;
     cart.forEach(element => {
@@ -22,25 +25,28 @@ const Card = (props) => {
     }
   }
   return (
+    // Bootstrap Column
+    //Using Dynamic Data
     <div className="col">
-      <div className="card h-100 product">
+      <div className="card h-100 product  course-card">
         <div>
-          <img className="product-image" src={img} class="card-img-top product-image" alt="..."/>
+          <img src={img} className="card-img-top course-image" alt="..."/>
           <div className="d-flex justify-content-between align-items-center course-info">
             <p>{mode}</p>
             <p><span className="circle">O</span>{difficulty}</p>
           </div>
         </div>
 
-        <div class="card-body">
-          <h4 class="card-title"> {title} </h4>
+        <div className="card-body">
+          <h4 className="card-title"> {title} </h4>
           <p className="course-description">
             {
               description.slice(0,150)
             }...
           </p>
         </div>
-        <div class="card-footer">
+        <div className="card-footer">
+          {/* Giving Ratings Dynamically using Font Awesome Icons & React Rating package */}
           <div className="d-flex justify-content-between align-items-center">
               <Rating
                 initialRating={rating}

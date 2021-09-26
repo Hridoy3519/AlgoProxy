@@ -30,7 +30,7 @@ const Header = (props) => {
               </div>
               <div className="d-flex nav-buttons">
                 <a className="nav-link" id="cart" href="/">
-                  <i class="fas fa-shopping-cart"></i> Cart({props.cart.length})
+                  <i className="fas fa-shopping-cart"></i> Cart({props.cart.length})
                 </a>
                 <a className="nav-link" id="sign-in" href="/">
                   Sign In

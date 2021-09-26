@@ -1,3 +1,9 @@
+/* Customizing Website Name & Nav link */
+.navbar .navbar-brand {
+  color: rgb(35, 182, 166);
+  font-size: 24px;
+}
+
 .navbar .navbar-nav .nav-link,
 div .nav-link {
   color: white;
@@ -16,6 +22,7 @@ div .nav-link {
   transition: 1s;
 }
 
+/* Customizing Sign In and Cart Button in Navbar */
 #cart,
 #sign-in {
   padding: 5px 10px;
@@ -39,12 +46,7 @@ div .nav-link {
   background-color: rgb(35, 182, 166);
 }
 
-.navbar .navbar-brand {
-  color: rgb(35, 182, 166);
-  font-size: 24px;
-}
-
-/* Header Description */
+/* Header Description Style */
 
 .header-description {
   color: white;

@@ -7,13 +7,14 @@ const Cart = (props) => {
 
     return (
         <div>
+            {/* Showing Details for the courses that has been enrolled */}
             <div className="cart-header">
-                <h4 className="m-0">Your Courses</h4>
+                <h4 className="m-0">Your Courses: ({cart.length})</h4>
                 <div className="underline"></div>
             </div>
             <div className="mt-3">
                 {
-                    cart.map(enrolledCourse => <Enrolled course={enrolledCourse}></Enrolled>)
+                    cart.map(enrolledCourse => <Enrolled key={enrolledCourse.key} course={enrolledCourse}></Enrolled>)
                 }
             </div>
             {
