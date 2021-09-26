@@ -45,7 +45,7 @@ const Header = () => {
         <div className="text-center header-description">
           <h1>LEARN FROM THE BEST</h1>
           <h1 className="bg-color-text">
-            Free Enrollment: Upto Courses worth 10000TK.
+            Free Enrollment: Upto Courses worth 15000TK.
           </h1>
           <h2 className="offer">
             Get Hands On Experience in Real World Software Development from

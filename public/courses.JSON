@@ -3,22 +3,22 @@
         "key": "B002RL8IYA",
         "mode": "Online",
         "difficulty": "Beginner",
-        "title": "Data Structures & Algorithm Fundamentals",
-        "description": "This course solely focuses on data structure and algorithm fundamentals. There are a lot of people both from CS and Non-CS background who do not have adequate understandings on data structures and algorithms. Data structures and algorithms are the most important topics to learn in order to become a successful software engineer or ace technical interviews. If you know basic programming but want to learn DS&A, this course is for you!",
+        "title": "Complete Guide to Android & IOS App Development",
+        "description": "Do you ever want to be a mobile app developer? Wouldn't it be so cool if you could build apps that can run seamlessly on Android and iOS at the same time? This is not a hybrid app development course that resides inside WebView rather you will learn to create powerful mobile apps with React Native which has the same performance as the native apps. This course is .a step by step and complete guide to become a mobile app developer!",
         "rating": "4",
-        "price": 5000,
-        "img": "./courseImage/DSA.jpg"
+        "price": 10000,
+        "img": "./courseImage/ios.jpg"
     },
 
     {
         "key": "B002RL8IYB",
         "mode": "Online",
         "difficulty": "Intermediate",
-        "title": "Programming Fundamentals",
-        "description": "This course solely focuses on programming fundamentals. There are many people who are from Non-CS background but have the indomitable desire to learn and understand the fundamentals of programming from level zero. Even if you are from CS background but do not have solid understanding on programming fundamentals, this course is specifically designed for you too!",
-        "rating": "5",
-        "price": 4000,
-        "img": "./courseImage/CP.jpg"
+        "title": "AWS Solution Architect Associate with Advanced",
+        "description": "This course is designed to help you pass AWS Solution Architect Associate certification exam. Though this is a certification focused course but it will heavily focus on practical work and hands on learning. Besides that you will gain valuable knowledge about exam preparation.",
+        "rating": "4.5",
+        "price": 15000,
+        "img": "./courseImage/aws.png"
     },
 
     {
@@ -27,8 +27,153 @@
         "difficulty": "Advanced",
         "title": "Professional Programming with C#",
         "description": "In this course we will learn all the things that we need to have a very good idea in order to build ourselves as a good quality software developer through a lot of practice with C # programming language. I will also learn almost all the advanced topics of C #.",
-        "rating": "3",
+        "rating": "3.5",
         "price": 8000,
         "img": "./courseImage/Chash.jpg"
+    },
+
+    {
+        "key": "B002RL8IYD",
+        "mode": "Offline",
+        "difficulty": "Intermediate",
+        "title": "Full Stack Asp.net Core MVC Web Development",
+        "description": "If you want to develop yourself as a full fledged .Net software engineer then this course is a golden opportunity for you. In this course you will be taught Advanced C # Programming, Object Oriented Design, Design pattern, Database Design, Cloud Computing, Software Deployment, Version Controlling, Unit Testing all in one course. We think this will allow you to present yourself as a skilled software engineer in any software company.",
+        "rating": "4",
+        "price": 30000,
+        "img": "./courseImage/ASP.png"
+    },
+
+    {
+        "key": "B002RL8IYE",
+        "mode": "Online",
+        "difficulty": "Beginner",
+        "title": "Kubernetes Essentials",
+        "description": "Now a days most well known buzz word in the software industry is 'Kubernetes' . Kubernetes Essentials Course will help you to learn how to develop and deploy web applications, different kind of services with Kubernetes technologies. Take your DevOps skills to the next level.",
+        "rating": "3.5",
+        "price": 10000,
+        "img": "./courseImage/kuber.jpg"
+    },
+
+    {
+        "key": "B002RL8IYF",
+        "mode": "Online",
+        "difficulty": "Beginner",
+        "title": "Master in Graphic Design",
+        "description": "This course has been designed with effective practical components that makes you a professional/ commercial Graphic designer. From the Design principle to Understanding graphic software to Deigning graphic materials- this course is highly structured, concrete, and substantial.Make Industry standard and User focused design that always win.So, Ignite your aesthetic sense and be a perfectionist!",
+        "rating": "3",
+        "price": 16000,
+        "img": "./courseImage/graphic.jpg"
+    },
+
+    {
+        "key": "B002RL8IYG",
+        "mode": "Online",
+        "difficulty": "Intermediate",
+        "title": "Professional Cyber Security Career",
+        "description": "Cyber Security is a vital part of day to day Information Technology domain. If you are a programmer, system analyst, system administrator, students or a general computer user, it is better to understand IT Security/ Cyber Security to keep yourself safe and protected from cyber threats and cyber criminals. This course is designed to mentor you with practical labs, industry knowledge & real-life experience.",
+        "rating": "4.5",
+        "price": 20000,
+        "img": "./courseImage/cyber.jpg"
+    },
+
+    {
+        "key": "B002RL8IYH",
+        "mode": "Online",
+        "difficulty": "Intermediate",
+        "title": "ReactJs - The Complete Guide",
+        "description": "Learn React or dive deeper into it. Learn the 'What', 'Why' and 'How' of ReactJs, solve assignments, practice in demo projects, and build one big application that is improved throughout the course. The whole course is designed to help a beginner to be an expert in ReactJs using Hooks, Redux, and other modern features. Throughout the course, all the topics will be discussed with real-time project implementation and at the end of the day, a final project will be given to everyone",
+        "rating": "4.5",
+        "price": 12000,
+        "img": "./courseImage/react.png"
+    },
+
+    {
+        "key": "B002RL8IYI",
+        "mode": "Offline",
+        "difficulty": "Intermediate",
+        "title": "Become a Full Stack Web Ninja With Laravel & VueJS ",
+        "description": "Laravel is an expressive, elegant and beautiful web development framework and a great foundation to make yourself a full stack web ninja. Web development now-a-days is a battle, a battle of skills. Prepare to fight your battle with the strong blades of Laravel from core to death. This course will engage you in working with practical, real world projects. You will learn how to think and act for starting a small project from scratch and take it to an optimised, full-featured ever-growing web project. It will build you a solid foundation, on which you can build your castle of web development career.",
+        "rating": "4",
+        "price": 30000,
+        "img": "./courseImage/laravel.png"
+    },
+
+    {
+        "key": "B002RL8IYJ",
+        "mode": "Online",
+        "difficulty": "Beginner",
+        "title": "Linux System Administration",
+        "description": "Currently the most popular and developer friendly operating system is the Linux based operating system. A large portion of the applications we use on the Internet on a daily basis are run from Linux based servers. Also, if a developer wants to do application development and testing work in the real environment, it is recommended to be proficient in managing his Linux based operating system.",
+        "rating": "3.5",
+        "price": 6000,
+        "img": "./courseImage/linux.jpg"
+    },
+
+    {
+        "key": "B002RL8IYk",
+        "mode": "Online",
+        "difficulty": "Beginner",
+        "title": "Competitive Programming - Beginner",
+        "description": "Solving a problem is meaningless if you can't convert it to a workable code in a contest that covers all the edge cases. Solving a problem, writing its code in an efficient language is a must for a problem solver. And currently, the fastest known coding language for a competitive programmer is undoubtedly C++.We will go through each C++ concepts needed for a competitive programmer in order to ace in contests and problem solving.",
+        "rating": "4.5",
+        "price": 5000,
+        "img": "./courseImage/CPB.png"
+    },
+
+    {
+        "key": "B002RL8IYL",
+        "mode": "Online",
+        "difficulty": "Beginner",
+        "title": "Video editing for beginners in Premiere Pro CC",
+        "description": "Do you want to edit your videos for youtube, facebook or film production? But you do not know how to start. Then this course is for you, Here you will learn everything about video editing using one of the most used video editing software in the industry- Adobe Premiere Pro CC as a beginner.",
+        "rating": "3.5",
+        "price": 4000,
+        "img": "./courseImage/video.jpg"
+    },
+
+    {
+        "key": "B002RL8IYM",
+        "mode": "Online",
+        "difficulty": "Beginner",
+        "title": "Learn PHP Step by Step",
+        "description": "The course is designed to learn programming using PHP programming language from the very beginning. PHP programming language will be taught here. Emphasis will be placed on creating coding skills. This is not a web development course. The framework will not be taught here. If you want to be admitted in the course, you have to pass the admission test first. Just enroll to participate in the admission test. If you pass, you have to pay.",
+        "rating": "4",
+        "price": 6000,
+        "img": "./courseImage/php.jpg"
+    },
+
+    {
+        "key": "B002RL8IYN",
+        "mode": "Offline",
+        "difficulty": "Beginner",
+        "title": "Become a Python Developer in 2020",
+        "description": "Python is one of the most sought-after programming languages today. From web development to data science, machine learning, scraping or scripting; the appeal of Python is undisputed. Hence it is more than helpful for an individual to build up basic knowledge of Python. This course has been designed to start with the very basic concepts leading to a more advanced curriculum. Being absolutely project based, the learning is expected to be hands on.",
+        "rating": "4.5",
+        "price": 6000,
+        "img": "./courseImage/python.png"
+    },
+
+    {
+        "key": "B002RL8IYO",
+        "mode": "Online",
+        "difficulty": "Intermediate",
+        "title": "DevOps Fundamental Course",
+        "description": "The DevOps Fundamentals Course is designed to provide the core education necessary to build your DevOps vocabulary and to understand its principles and practices DevOps tools . With the help of key DevOps Culture,concepts and terminology, real life case studies, examples and interactive group discussions and extensive exercises in each module you will acquire a fundamental understanding of DevOps.",
+        "rating": "4.5",
+        "price": 8000,
+        "img": "./courseImage/dev.png"
+    },
+
+    {
+        "key": "B002RL8IYP",
+        "mode": "Online",
+        "difficulty": "Beginner",
+        "title": "Docker Essentials",
+        "description": "Docker Essentials Course will help you to learn how to develop and deploy web applications with Docker technologies. Take your DevOps skills to the next level.",
+        "rating": "3.5",
+        "price": 6000,
+        "img": "./courseImage/docker.png"
     }
+
+
 ]

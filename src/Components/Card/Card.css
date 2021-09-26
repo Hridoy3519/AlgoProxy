@@ -18,3 +18,47 @@
 .card-title{
   font-weight: 400;
 }
+
+.course-description{
+  margin: 0;
+}
+
+.card-footer{
+  background-color: white;
+  padding: 5px;
+}
+
+hr{
+  margin: 2px 0;
+}
+
+.price{
+  
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.reg-status{
+  color: green;
+  font-size: 18px;
+}
+
+.fa{
+  font-size: 16px;
+  color: goldenrod;
+}
+
+.enroll-btn{
+  background-color: #6096C8;
+  color: white;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.6s linear;
+}
+
+.enroll-btn:hover{
+  background-color: white;
+  color: black;
+}
