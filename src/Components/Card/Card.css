@@ -1,0 +1,20 @@
+.product-image {
+  height: 200px;
+}
+
+.course-info{
+  background-color: rgba(211, 211, 211, 0.397);
+  padding: 0 5px;
+  margin: 0;
+}
+.circle{
+  color: rgb(35, 182, 166);
+}
+
+.card-body{
+  padding: 5px;
+}
+
+.card-title{
+  font-weight: 400;
+}

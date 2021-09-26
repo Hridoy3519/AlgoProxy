@@ -1,0 +1,34 @@
+[
+    {
+        "key": "B002RL8IYA",
+        "mode": "Online",
+        "difficulty": "Beginner",
+        "title": "Data Structures & Algorithm Fundamentals",
+        "description": "This course solely focuses on data structure and algorithm fundamentals. There are a lot of people both from CS and Non-CS background who do not have adequate understandings on data structures and algorithms. Data structures and algorithms are the most important topics to learn in order to become a successful software engineer or ace technical interviews. If you know basic programming but want to learn DS&A, this course is for you!",
+        "rating": "4",
+        "price": 5000,
+        "img": "./courseImage/DSA.jpg"
+    },
+
+    {
+        "key": "B002RL8IYB",
+        "mode": "Online",
+        "difficulty": "Intermediate",
+        "title": "Programming Fundamentals",
+        "description": "This course solely focuses on programming fundamentals. There are many people who are from Non-CS background but have the indomitable desire to learn and understand the fundamentals of programming from level zero. Even if you are from CS background but do not have solid understanding on programming fundamentals, this course is specifically designed for you too!",
+        "rating": "5",
+        "price": 4000,
+        "img": "./courseImage/CP.jpg"
+    },
+
+    {
+        "key": "B002RL8IYC",
+        "mode": "Offline",
+        "difficulty": "Advanced",
+        "title": "Professional Programming with C#",
+        "description": "In this course we will learn all the things that we need to have a very good idea in order to build ourselves as a good quality software developer through a lot of practice with C # programming language. I will also learn almost all the advanced topics of C #.",
+        "rating": "3",
+        "price": 8000,
+        "img": "./courseImage/Chash.jpg"
+    }
+]
